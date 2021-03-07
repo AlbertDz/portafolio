@@ -1,0 +1,37 @@
+@import './variables.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.App {
+    margin: auto;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.content-section .header-section {
+    backdrop-filter: blur(15px);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 20px;
+    padding: 10px 20px;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 10;
+}

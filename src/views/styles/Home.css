@@ -1,0 +1,8 @@
+.content-tecnologias {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+}

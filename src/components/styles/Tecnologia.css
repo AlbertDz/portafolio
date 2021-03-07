@@ -1,0 +1,63 @@
+.card {
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: .5s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 1);
+    transform: translateY(-10px);
+}
+
+.card .porcentaje {
+    background-color: #222;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    height: 170px;
+    position: relative;
+    width: 170px;
+    z-index: 5;
+}
+
+.card .porcentaje .numero {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.card .porcentaje .numero img {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 100%;
+    object-fit: 80%;
+    object-position: center;
+    width: 100%;
+}
+
+.card .titulo {
+    color: var(--color-texto-claro);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    position: relative;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.card:hover .titulo {
+    color: var(--color-texto);
+}
